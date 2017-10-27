@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+     <div class="banner">
+        <img class="banner-image" src="/images/banner.jpg">
+     </div>  
+    
+    <!--
+    <div class="btn-group">
+    <form action= "{{ site.baseurl }}/services/technical-consulting/">
+        <button class="button" type="submit">TECHNICAL CONSULTING
+        </button>
+    </form>
+    <form action= "{{ site.baseurl }}/services/litigation-support/">  
+        <button class="button" type="submit">LITIGATION SUPPORT
+        </button>
+    </form>
+    </div>
+      -->
+      
+    <div class="div4">
+        
+    
+        <div class="wrapper">  
+          <div class="container">
+              
+           
+               
+           <div class="columns spacing">
+               
+            <div class="column half">
+                <img src="/images/tech-cons.jpg" width="400" height="220">
+                <div class="div1">
+                <div class="spacing">
+                <h2>Technical Consulting</h2>
+                <p style="color:#4F4E4E" class="post-hero center-text"><i>We provide cutting-edge information security services</i></p>
+                <form action= "{{ site.baseurl }}/services/technical-consulting/">
+                    <button class="button" type="submit">Learn more
+                    </button>
+                </form>
+                </div>
+                </div>
+            </div>
+               
+            <div class="column half">
+                <img src="/images/lit-support.jpg" width="400" height="220">
+                <div class="div2">
+                <div class="spacing">
+                <h2>Litigation Support</h2>
+                <p style="color:#4F4E4E" class="post-hero center-text"><i>Are you evaluating your IP portfolio before cross-licensing negotiations, or looking to put an experienced expert on the witness stand?</i></p>
+                <form action= "{{ site.baseurl }}/services/litigation-support/">  
+                    <button class="button" type="submit">Learn more
+                    </button>
+                </form>
+                </div>
+            </div>
+            </div>
+            </div>
+            
+           
+            </div>
+              
+          </div>
+        
+      </div> 
+      
+    <main class="page-content" aria-label="Content">
+          
+      <div class="wrapper">
+        <div class="columns spacing">
+            <article class="post">
+                <div class="post-content">
+                    {{ content }}
+                </div>
+            </article>
+        </div>
+      </div>
+    </main>
+    
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

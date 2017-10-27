@@ -1,0 +1,25 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<div class="columns spacing">
+    <div class="column third">
+        <p class="post-hero center-text">Email:</p>
+        <p class="post-hero center-text">Telephone:</p>
+        <p class="post-hero center-text">Address:</p>
+        
+    </div>
+          
+    <div class="column third">
+        <ul class="contact-list">
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+        </ul>
+        <p class="post-hero center-text">410.840.7632</p>
+        <p class="post-hero center-text">12210 Woodelves Dr. Owings Mills, MD. 21117</p>
+
+    </div>
+</div>
