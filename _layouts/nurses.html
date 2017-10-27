@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+      
+    <div class="div4">
+        
+    
+        <div class="wrapper">  
+          <div class="container">
+              
+           
+               
+           <div class="columns spacing">
+               
+
+                <img src="/images/napp.jpg" width="700" height="400">
+     
+           
+            
+            </div>
+           
+            </div>
+              
+          </div>
+        
+      </div> 
+      
+    <main class="page-content" aria-label="Content">
+          
+      <div class="wrapper">
+        <div class="columns spacing">
+            <article class="post">
+                <div class="post-content">
+                    {{ content }}
+                </div>
+            </article>
+        </div>
+      </div>
+    </main>
+    
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
