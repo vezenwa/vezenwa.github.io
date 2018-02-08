@@ -1,3 +1,6 @@
+I created this jekyll website for Infusion Connect, a project I worked on as part of my master's program. I used jekyll's minima theme (documentation below) and designed all web pages using html and css. Visit vezenwa.github.io for information on the Infusion Connect project. 
+
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
