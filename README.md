@@ -1,4 +1,4 @@
-I created this jekyll website for Infusion Connect, a project I worked on as part of my master's program. I used jekyll's minima theme (documentation below) and designed all web pages using html and css. Visit vezenwa.github.io for information on the Infusion Connect project. 
+This jekyll website is an information source for Infusion Connect, a mobile application I prototyped (using Android Studio) as part of an entrepreneurial course during my master's program. I used jekyll's minima theme as my base (documentation below) and designed the website using html and css, among other jekyll constructs. Visit vezenwa.github.io to view the website. 
 
 
 # minima
